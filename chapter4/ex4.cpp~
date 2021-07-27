@@ -1,0 +1,16 @@
+#include "std_lib_facilities.h"
+
+// Write a program to play a number guessing game. User thinks of a
+// number between 1 and 100 and programs asks questions to figure out
+// what the number is. Should be able to determine any number in no
+// more than seven questions
+
+int main()
+{
+  // read a number from standard input
+  int number_to_guess;
+  cout << "Enter a number for the computer to guess for between [1,100]: ";
+  cin>>number_to_guess;
+
+  if (number_to_guess < 1 || number_to_guess> 100)
+    cou
