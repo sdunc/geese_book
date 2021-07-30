@@ -58,3 +58,5 @@ int main()
   cout << "Squares needed for 1,000,000 grains of rice: " << n_doubles_before_gt(1000000) << '\n';
   cout << "Squares needed for 1,000,000,000 grains of rice: " << n_doubles_before_gt(1000000000) << '\n';
 }
+
+
