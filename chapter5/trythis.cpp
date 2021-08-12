@@ -24,7 +24,8 @@ int f(int x, int y, int z)
   // with a result >=0.  this means x>=0, y>=0 we also want to
   // calculate framed_area with z and y. Since we have an internal
   // border defined we can check that the parameters we are passing
-  // are large enough
+  // are large enoughxs
+  
   int area1 = area(x,y);
   if (area1<=0) error("non-positive area1");
   int area2 = framed_area(3,z);
